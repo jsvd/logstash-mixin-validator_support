@@ -1,3 +1,6 @@
+## 1.1.1
+  - Fixes `:required_host_optional_port` validator to accept _all_ RFC1123-compliant hostnames, including single-label names like `localhost` [#7](https://github.com/logstash-plugins/logstash-mixin-validator_support/pull/7)
+
 ## 1.1.0
   - Introduces `:required_host_optional_port` validator [#4](https://github.com/logstash-plugins/logstash-mixin-validator_support/pull/4)
 
